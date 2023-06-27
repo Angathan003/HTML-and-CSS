@@ -101,6 +101,7 @@ header h2 i,nav a i{
     color:var(--red);
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .menu th{
@@ -158,7 +159,10 @@ footer{
 }
 
 #copyright{
-    margin-left:20px;
+    /* margin-left:20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .social-menu ul{
     display: flex;
@@ -206,4 +210,11 @@ footer{
 }
 .social-menu ul li:nth-child(3) a:hover{
     background-color: #00ACEE;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons li {
+    margin: 0 10px;
 }
