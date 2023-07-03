@@ -10,13 +10,40 @@ body,h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.landing{
+/* .landing{
     background-image: url('../media/bg.jpg');
     background-size: cover;
     background-position: center;
     height:100vh;
     color:var(--white);
+} */
+
+.landing {
+    background-image: url('../media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+    animation: animatedBackground 10s infinite;
 }
+
+@keyframes animatedBackground {
+    0% {
+        background-position: center;
+    }
+    50% {
+        background-position: top;
+    }
+    100% {
+        background-position: bottom;
+        transform: scale(1.2); /* Zoom in effect */
+    }
+    90% {
+        transform: scale(0.8); /* Zoom out effect */
+    }
+}
+
+
 
 header a{
     text-decoration: none;
