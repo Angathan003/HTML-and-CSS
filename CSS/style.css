@@ -245,3 +245,33 @@ footer{
 .social-icons li {
     margin: 0 10px;
 }
+
+/* Animation for "Thank You" text */
+@keyframes animateText {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.thank-you {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.thank-you h3 {
+    font-size: 2em;
+    animation: animateText 3s linear infinite;
+}
