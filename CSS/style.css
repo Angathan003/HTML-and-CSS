@@ -24,7 +24,7 @@ body,h2{
     background-position: center;
     height: 100vh;
     color: var(--white);
-    animation: animatedBackground 10s infinite;
+    /* animation: animatedBackground 10s infinite; */
 }
 
 @keyframes animatedBackground {
@@ -275,3 +275,10 @@ footer{
     font-size: 2em;
     animation: animateText 3s linear infinite;
 }
+.landing {
+    /* Existing styles for the landing section */
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
