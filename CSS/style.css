@@ -18,15 +18,15 @@ body,h2{
     color:var(--white);
 } */
 
+/* CSS */
 .landing {
-    background-image: url('../media/bg.jpg');
-    background-size: cover;
-    background-position: center;
+    width: 100%;
     height: 100vh;
-    color: var(--white);
-    /* animation: animatedBackground 10s infinite; */
-}
-
+    background-image: url('../media/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 @keyframes animatedBackground {
     0% {
         background-position: center;
